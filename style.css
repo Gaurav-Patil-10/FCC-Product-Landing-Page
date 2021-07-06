@@ -11,20 +11,15 @@ html{
     background-color: #EEEEEE;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 #header{
-    margin-top: 0px;
+    margin-top: -10px;
     position: fixed;
     padding: 0px;
-    margin: 0px;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 65px;
+    height: 75px;
     align-items: center;
     z-index: 100;
 }
@@ -52,5 +47,59 @@ main{
     justify-content: flex-end;
 }
 
+#form-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email{
+    width: 220px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 2.5px;
+}
+
+#submit{
+    background-color:#F1C40F;
+    padding: 5px 5px 5px 10px;
+    font-weight: 800;
+    border: none;
+    text-transform: uppercase;
 
 
+}
+
+#submit:hover{
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes fade {
+    0%{
+        background-color:#F1C40F;
+    }
+    100%{
+        background-color: #FBA500;
+    }
+}
+
+#Features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
