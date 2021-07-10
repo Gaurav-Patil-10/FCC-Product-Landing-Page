@@ -6,13 +6,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
-    
+<div>
+
     <!-- Header containing Logo and Links-->
     <header id="header">
         <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
@@ -27,46 +26,57 @@
     <!-- Form with Email and submit Buttons-->
 
     <div id="form-section">
-    <h3>Handcrafted, home-made masterpieces</h3>
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <input type="email" name="email" id="email" placeholder="Enter your email address">
-        <button type="submit" id="submit">Get Started</button>
-    </form>
+        <h3>Handcrafted, home-made masterpieces</h3>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" name="email" id="email" placeholder="Enter your email address">
+            <button type="submit" id="submit">Get Started</button>
+        </form>
     </div>
-   
+
 
     <!--Features-->
 
     <div id="Features">
         <div id="Features-1">
-            <i class="fas fa-fire"></i>
-            <h1 class="Features-Heading">Premium Materials</h1>
-            <p class="Features-description">Our trombones use the shiniest brass which is sourced locally. This will
-                increase the longevity of your purchase.</p>
+            <img src="https://img-premium.flaticon.com/png/512/1942/premium/1942144.png?token=exp=1625930080~hmac=a10c16bb5b6a0ceeed74c180d9b8ae21"
+                alt="">
+            <div>
+                <h1 class="Features-Heading">Premium Materials</h1>
+                <p class="Features-description">Our trombones use the shiniest brass which is sourced locally. This will
+                    increase the longevity of your purchase.</p>
+            </div>
         </div>
         <div id="Features-2">
-            <i class="fas fa-truck"></i>
-            <h1 class="Features-Heading">Fast Shipping</h1>
-            <p class="Features-description">We make sure you recieve your trombone as soon as we have finished making
-                it. We also provide free returns if you are not satisfied.</p>
+            <img src="https://image.flaticon.com/icons/png/512/726/726455.png" alt="">
+            <div>
+                <h1 class="Features-Heading">Fast Shipping</h1>
+                <p class="Features-description">We make sure you recieve your trombone as soon as we have finished
+                    making
+                    it. We also provide free returns if you are not satisfied.</p>
+            </div>
         </div>
         <div id="Features-3">
-            <i class="fas fa-battery-full"></i>
-            <h1 class="Features-Heading">Quality Assurance</h1>
-            <p class="Features-description">For every purchase you make, we will ensure there are no damages or faults
-                and we will check and test the pitch of your instrument.</p>
+            <img src="https://image.flaticon.com/icons/png/512/3103/3103520.png" alt="">
+            <div>
+                <h1 class="Features-Heading">Quality Assurance</h1>
+                <p class="Features-description">For every purchase you make, we will ensure there are no damages or
+                    faults
+                    and we will check and test the pitch of your instrument.</p>
+            </div>
         </div>
     </div>
 
     <!-- Video Link-->
-    <div class="How-It-Works">
-        <video src="https://www.youtube.com/embed/5ZuFe-M3yOI" ></video>
-    </div>
+    <div class="video">
+    <iframe width="540" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe></div>
+
 
     <!-- Pricing Section-->
     <div class="Pricing-Section">
         <div class="Pricing-1">
-            <h3>TENOR TROMBONE</h3>
+            <div><h4>TENOR TROMBONE</h4></div>
             <h3>$600</h3>
             <p>Lorem ipsum.<br>
                 Lorem ipsum.<br>
@@ -75,7 +85,7 @@
             <button type="Submit">SELECT</button>
         </div>
         <div class="Pricing-2">
-            <h3>BASS TROMBONE</h3>
+            <div><h4>BASS TROMBONE</h4></div>
             <h3>$900</h3>
             <p>Lorem ipsum.<br>
                 Lorem ipsum.<br>
@@ -85,7 +95,7 @@
 
         </div>
         <div class="Pricing-3">
-            <h3>VALVE TROMBONE</h3>
+            <div><h4>VALVE TROMBONE</h4></div>
             <h3>$1200</h3>
             <p>Plays similar to a Trumpet<br>
                 Great for Jazz Bands<br>
@@ -95,17 +105,18 @@
         </div>
 
     </div>
-
+   
     <!-- Footer Section-->
 
-    <footer id="Footer">
-        <nav>
-            <li><a href=""></a>Privacy</li>
-            <li><a href=""></a>Terms</li>
-            <li><a href=""></a>Contact</li>
+    <div id="Footer">
+        <div><nav>
+            <li><a href="/" class="footer-links-1">Privacy</a></li>
+            <li><a href="/" class="footer-links-2">Terms</a></li>
+            <li><a href="/" class="footer-links-3">Contact</a></li>
         </nav>
-        <p>Copyright 2016, Original Trombones</p>
-    </footer>
+        <p>Copyright 2016, Original Trombones</p></div>
+        
+    </div>
 
 
 </body>
