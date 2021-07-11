@@ -76,7 +76,7 @@ html{
     font-weight: 800;
     border: none;
     text-transform: uppercase;
-
+    text
 
 }
 
@@ -94,6 +94,34 @@ html{
     100%{
         background-color: #FBA500;
     }
+}
+
+@media only screen and (max-width: 600px){
+    #header-img{
+        margin-left: 0px;
+        height: 30%;
+        width: 40%;
+        margin-right: 0px;
+    }
+    #nav-bar{
+        font-size: 10px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    .nav-link{
+        font-size:smaller;
+        padding: 8px;
+        color: black;
+        text-decoration: none;
+        justify-content: flex-start;
+    }
+
+    
+
 }
 
 #Features{
@@ -152,7 +180,7 @@ iframe{
     margin-top: 100px;
 }
 
-.Pricing-Section{
+#Pricing-Section{
     display: flex;
     flex-direction: row;
     column-gap: 25px;
